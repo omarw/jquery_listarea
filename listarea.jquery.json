@@ -1,0 +1,29 @@
+{
+    "name": "listarea",
+    "title": "jQuery Listarea",
+    "description": "jQuery plugin for turning a textarea into a structured list of items.",
+    "keywords": [
+        "textarea",
+        "list",
+		"jquery",
+		"javascript"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Omar Wheatley",
+        "url": "http://www.omarw.co"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/omarw/jquery_listarea/blob/master/LICENSE.md"
+        }
+    ],
+    "bugs": "https://github.com/omarw/jquery_listarea/issues",
+    "homepage": "https://github.com/omarw/jquery_listarea",
+    "docs": "https://github.com/omarw/jquery_listarea",
+    "download": "http://code.jquery.com/#color",
+    "dependencies": {
+        "jquery": ">=1.7"
+    }
+}
