@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheets\demo.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets\listarea.css">
+	</head>
+	<body>
+		<a href="https://github.com/omarw/jquery_listarea" class="gitfork">
+			<img src="images/fork.png"/>
+		</a>
+		<div class="main">
+			<div class="header">
+				<h2>jQuery Listarea</h2>
+				<p>Listarea.js is a jQuery plugin that allows you to quickly and easily add a list of items to a textarea or input field.</p>
+			</div>
+			<div class="content">
+				<h3>Demo</h3>
+				<p>Easily collect a structured list of items from your user. List will then get submitted in your form as a comma delimited list or with a delimiter of your choice. (ex. grocery list, list of colors, etc...)</p>
+				<p>Optional parameters - delimiter, effect, placeholder</p>
+				<div class="formWrap">
+				<form id="demoForm">
+					<label for="listarea">List Area:</label>
+					<textarea id="listarea" name="listarea"></textarea>
+					<input type="submit" value="See List" />
+				</form>
+				</div>
+				<h3>Setup</h3>
+				<pre><code data-language="html">&lt;link rel="stylesheet" type="text/css" href="stylesheets\listarea.css" /&gt;
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="javascripts\jquery.listarea.js"&gt;&lt;/script&gt;</code></pre>
+				<p>Sample Html<p>
+				<pre><code data-language="html">&lt;form id="demoForm"&gt;
+	&lt;label for="listarea">List Area:&lt;/label&gt;
+	&lt;textarea id="listarea" name="listarea">&lt;/textarea&gt;
+	&lt;input type="submit" value="See List" /&gt;
+&lt;/form&gt;</code></pre>
+				<p>Javascript<p>
+				<pre><code data-language="javascript">$('#listarea').listarea({
+	effect: 'slow'
+});</code></pre>
+				
+			</div>
+		</div>
+		<div class="download">
+			<div>
+				<h3>Download</h3>
+				<a href="https://github.com/omarw/jquery_listarea/raw/master/package.zip">
+					<img src="images/zip.png"/>
+				</a>
+			</div>
+		</div>
+		<div class="copyright">
+			<p style="white-space:pre;">Copyright &copy; 2014 - </p><a href="http://www.omarw.co">Omar Wheatley</a>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="javascripts\jquery.listarea.js"></script>
+		<script type="text/javascript" src="javascripts\demo.js"></script>
+		<script type="text/javascript" src="javascripts\rainbow-custom.min.js"></script>
+		<script>
+			$(function(){
+				$('#listarea').listarea({
+					effect: 'slow'
+				});
+				$('form').on('submit', submitDemoForm);
+				Rainbow.color();
+			});
+		</script>
+	</body>
+</html>

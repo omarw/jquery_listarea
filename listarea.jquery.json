@@ -20,9 +20,9 @@
         }
     ],
     "bugs": "https://github.com/omarw/jquery_listarea/issues",
-    "homepage": "https://github.com/omarw/jquery_listarea",
+    "homepage": "",
     "docs": "https://github.com/omarw/jquery_listarea",
-    "download": "http://code.jquery.com/#color",
+    "download": "https://github.com/omarw/jquery_listarea/raw/master/package.zip",
     "dependencies": {
         "jquery": ">=1.7"
     }
