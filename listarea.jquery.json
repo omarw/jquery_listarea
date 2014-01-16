@@ -20,7 +20,7 @@
         }
     ],
     "bugs": "https://github.com/omarw/jquery_listarea/issues",
-    "homepage": "",
+    "homepage": "http://omarw.github.io/jquery_listarea/",
     "docs": "https://github.com/omarw/jquery_listarea",
     "download": "https://github.com/omarw/jquery_listarea/raw/master/package.zip",
     "dependencies": {
