@@ -18,13 +18,11 @@
 			lbDeleteListItem(textareaInput, listareaWrap, $(this), params);
 		});
 		$('div.addListItem > input').on('enterKey', function(){
-			alert('in');
 			return false;
 		});
 		$('div.addListItem > input').keyup(function(e){
 			if(e.keyCode == 13)
 			{
-				alert('in');
 				$(this).trigger("enterKey");
 			}
 			return false;
