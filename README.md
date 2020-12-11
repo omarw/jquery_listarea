@@ -14,7 +14,7 @@ To install copy the *javascripts* and *stylesheets* directories into your projec
     <link href="stylesheets/listarea.css" rel="stylesheet" type="text/css" />
 
 ##Demo
-http://omarw.github.io/jquery_listarea/
+https://omarw.github.io/jquery_listarea/
 
 ## Copyright
 
